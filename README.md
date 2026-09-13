@@ -55,5 +55,5 @@ git clone https://github.com/somilsin/CMU-Deep-Learning-Computer-Vision.git
 # Navigate into the directory
 cd CMU-Deep-Learning-Computer-Vision
 
-# Install dependencies
-pip install torch torchvision matplotlib numpy
+# Install dependencies (mentioned inside ipynb)
+pip install -r requirements.txt   
