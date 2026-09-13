@@ -50,7 +50,7 @@ To run these notebooks locally, clone the repository and install the required de
 
 ```bash
 # Clone the repository
-git clone [https://github.com/somilsin/CMU-Deep-Learning-Computer-Vision.git](https://github.com/somilsin/CMU-Deep-Learning-Computer-Vision.git)
+git clone https://github.com/somilsin/CMU-Deep-Learning-Computer-Vision.git
 
 # Navigate into the directory
 cd CMU-Deep-Learning-Computer-Vision
