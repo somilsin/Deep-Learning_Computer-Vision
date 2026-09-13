@@ -13,7 +13,7 @@
 
 ## 📖 About This Repository
 ---
-This repository documents my hands-on journey engineering core **Computer Vision** and **Deep Learning** architectures entirely from the ground up. Bridging theoretical concepts from the Carnegie Mellon University (CMU) curriculum I am currently enrolled in with practical engineering, this space serves as a deep dive into convolutional networks, algorithmic bias mitigation, and generative models. All implementations, models, and training loops in this repository are entirely my own original work.
+This repository documents my hands-on journey engineering core **Computer Vision** and **Deep Learning** architectures entirely from the ground up. Bridging theoretical concepts from the Carnegie Mellon University (CMU) curriculum along with advanced Stanford and MIT machine learning lectures, I am currently enrolled in with practical engineering, this space serves as a deep dive into convolutional networks, algorithmic bias mitigation, and generative models. All implementations, models, and training loops in this repository are entirely my own original work.
 
 <br>
 
