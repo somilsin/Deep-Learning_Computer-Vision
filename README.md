@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>👁️ Deep Learning & Computer Vision</h1>
-  <h3><code>MIT Introduction to Deep Learning</code></h3>
+  <h1>🧠 Transformers & LLMs From Scratch</h1>
+  <h3><code>Carnegie Mellon University Advanced Machine Learning</code></h3>
   <p>
     <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
     <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
@@ -13,14 +13,24 @@
 
 ## 📖 About This Repository
 ---
-This repository holds my completed work through the Computer Vision lab of MIT's Introduction to Deep Learning (6.S191), with my own notes added throughout as I worked through convolutional networks and algorithmic bias in facial detection.
+This repository documents my hands-on journey engineering core **Transformer architectures** and **Large Language Models (LLMs)** entirely from the ground up. Bridging theoretical concepts from the Carnegie Mellon University (CMU) curriculum I am currently enrolled in with practical engineering, this space serves as a deep dive into the math and code powering modern generative AI. All implementations, models, and training loops in this repository are entirely my own original work.
+
+<br>
+
+## 🚀 Key Implementations
+---
+- **Self-Attention & Multi-Head Attention:** From-scratch implementations of scaled dot-product attention mechanisms.
+- **The Vanilla Transformer:** Building the foundational Encoder-Decoder architecture *(Vaswani et al., 2017)*.
+- **Decoder-Only Architectures:** Constructing causal, auto-regressive language models (GPT-style).
+- **Custom Tokenization & Embeddings:** Practical applications of positional encoding and sub-word tokenization strategies.
+- **Training Infrastructure:** Custom training loops, learning rate schedulers, and optimization techniques for language modeling.
 
 <br>
 
 ## 🎓 Coursework
 ---
-- **[`1_MNIST_Digit_Classification.ipynb`](./1_MNIST_Digit_Classification.ipynb):** Fully-connected vs. convolutional networks for handwritten digit classification, completed as part of MIT 6.S191, with my own notes added throughout *(copyright header kept intact)*.
-- **[`2_Facial_Detection_Debiasing.ipynb`](./2_Facial_Detection_Debiasing.ipynb):** CNN facial detection and a variational autoencoder (DB-VAE) for mitigating algorithmic bias across demographic groups, completed as part of MIT 6.S191, with my own notes added throughout *(copyright header kept intact)*.
+- **`1_Music_Generation.ipynb`**: Character-level RNN/LSTM for generating ABC-notation music, engineered independently from scratch.
+- **`2_LLM_Finetuning.ipynb`**: LoRA fine-tuning and LLM-as-a-judge evaluation of a chat model, built entirely from the ground up.
 
 <br>
 
@@ -37,15 +47,14 @@ This repository holds my completed work through the Computer Vision lab of MIT's
 
 ## ⚙️ Getting Started
 ---
-To run these notebooks locally, clone the repository and install the required dependencies:
+To run these notebooks and scripts locally, clone the repository and install the required dependencies:
 
 ```bash
 # Clone the repository
-git clone https://github.com/somilsin/Deep-Learning_Computer-Vision.git
+git clone [https://github.com/somilsin/CMU-Advanced-Machine-Learning-Transformers-LLMs.git](https://github.com/somilsin/CMU-Advanced-Machine-Learning-Transformers-LLMs.git)
 
 # Navigate into the directory
-cd Deep-Learning_Computer-Vision
+cd CMU-Advanced-Machine-Learning-Transformers-LLMs
 
 # Install dependencies
-pip install torch torchvision matplotlib numpy mitdeeplearning
-```
+pip install -r requirements.txt
