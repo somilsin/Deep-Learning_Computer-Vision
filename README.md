@@ -57,6 +57,7 @@ cd CMU-Deep-Learning-Computer-Vision
 
 # Install dependencies (mentioned inside ipynb)
 pip install -r requirements.txt   
+```
 
 <br>
 
