@@ -57,3 +57,25 @@ cd CMU-Deep-Learning-Computer-Vision
 
 # Install dependencies (mentioned inside ipynb)
 pip install -r requirements.txt   
+
+<br>
+
+## 🧠 nnkit — Neural Network Engine From Scratch
+---
+<p>
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white" alt="SciPy">
+  <img src="https://img.shields.io/badge/Autograd-None-47c219?style=for-the-badge" alt="No Autograd">
+</p>
+
+[`Neural-Network-Engine-From-Scratch/`](./Neural-Network-Engine-From-Scratch) contains **nnkit**, a deep learning framework built entirely from first principles using only NumPy and SciPy, no PyTorch, TensorFlow, or autograd of any kind. Every forward pass, backward pass, and gradient update is hand-derived via matrix calculus and hand-vectorized.
+
+**Implemented from scratch:**
+- `Linear` fully-connected layer with manually derived forward/backward
+- Activations: `Sigmoid`, `Tanh`, `ReLU`, `GELU`, `Swish` (learnable gate), `Softmax` (full Jacobian backward)
+- Loss functions: `MSELoss`, `CrossEntropyLoss` (numerically stable)
+- `SGD` optimizer with momentum, implemented from the update rule
+- `BatchNorm1d` with running statistics and a hand-derived backward pass through the normalization, scale, and shift operations
+- `MLP0`, `MLP1`, `MLP4` — 0, 1, and 4 hidden-layer MLPs composed from the above, with a generalized forward/backward loop over an arbitrary layer stack
+
+See the [nnkit README](./Neural-Network-Engine-From-Scratch/README.md) for usage examples and a full breakdown.
